@@ -1,5 +1,75 @@
 <html lang="en">
 <head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Raleway:ital,wght@1,200&family=Roboto+Condensed:wght@300&display=swap');
+        body {
+            background-color: beige;
+        }
+        
+        hr {
+            border-style: none;
+            border-top-style: dotted;
+            width: 40%;
+            border-color:darkgray;
+            border-width: 5px;
+        }
+        div {
+            text-align: center;
+        }
+        ul, ol {
+            display: inline-block;
+        }
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .mainh1 {
+            font-size: 70px;
+            font-weight: 500;
+            background-image: linear-gradient(to left, #9589b6, #280e43);
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+        }
+        .h1color1 {
+            color:burlywood;
+            font-size: 50px;
+        }
+
+        .h1color2 {
+            color:indianred;
+            font-size: 50px;
+        }
+        @font-face {
+            font-family: ;
+            src: url();
+        }
+        .font1 {
+            font-family: "raleway";
+        }
+        .font2 {
+            font-family: "roboto condensed";
+        }
+        .font3 {
+            font-family: "poppins";
+        }
+        .blueli {
+            color: blue;
+        }
+        .redli {
+            color: red;
+        }
+        .greenli {
+            color: green;
+        }
+
+
+
+
+
+
+
+    </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,27 +77,31 @@
 </head>
 <body>
 
+    <hr>
     <div>
-        <h1>Hello World</h1>
+        <h1 class="mainh1">Hello World</h1>
         <h2>ASDF</h2>
         <h3>QWERTY</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam expedita, accusantium animi nobis laboriosam non voluptas vel, <br> maiores eaque explicabo reiciendis id, <br> exercitationem obcaecati tenetur saepe. Reiciendis tempora ea ex?</p>
+        <p class="font1" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam expedita, accusantium animi nobis laboriosam non voluptas vel, <br> maiores eaque explicabo reiciendis id, <br> exercitationem obcaecati tenetur saepe. Reiciendis tempora ea ex?</p>
     </div>
+    <hr>
 
 
     <div>
-        <h1>Dart</h1>
+        <h1 class="h1color1">Dart</h1>
         <h2>Flutter</h2>
         <h3>HTML</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit similique facilis quia aperiam minus hic atque illo cupiditate, <br> doloremque, dolorum quibusdam culpa error. <br> Recusandae cumque exercitationem praesentium minus excepturi dicta.</p>
+        <p class="font2" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit similique facilis quia aperiam minus hic atque illo cupiditate, <br> doloremque, dolorum quibusdam culpa error. <br> Recusandae cumque exercitationem praesentium minus excepturi dicta.</p>
     </div>
+    <hr>
     
     <div>
-        <h1>Thor</h1>
+        <h1 class="h1color2">Thor</h1>
         <h2>Iron Man</h2>
         <h3>Silver Surfer</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem laudantium, rerum, <br> illum fugiat reiciendis perferendis ipsa at totam ipsum amet odit <br> inventore consequuntur magni saepe laborum exercitationem quaerat blanditiis iusto!</p>
+        <p class="font3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem laudantium, rerum, <br> illum fugiat reiciendis perferendis ipsa at totam ipsum amet odit <br> inventore consequuntur magni saepe laborum exercitationem quaerat blanditiis iusto!</p>
     </div>
+    <hr>
     
     
     <div>
@@ -35,16 +109,18 @@
         <li>First</li>
         <li>Second</li>
         <li>Third</li>
-    </ul>
+        </ul>
     </div>
+    <hr>
 
     <div>
         <ol>
-        <li>Blue 🟦</li>
-        <li>Red 🟥</li>
-        <li>Green 🟩</li>
+        <li class="blueli">Blue 🟦</li>
+        <li class="redli">Red 🟥</li>
+        <li class="greenli">Green 🟩</li>
     </ol>
     </div>
+    <hr>
 
 
     <div id="Pics from computer">
@@ -54,10 +130,11 @@
 
     <div id="Pics from the internet">
         <img src="https://qph.cf2.quoracdn.net/main-qimg-8520325459b69bb3854ec45866c29f1e-lq" alt="code meme">
-        <img src="https://i.pinimg.com/originals/72/88/b5/7288b5c821d3c1064643c23de28653ee.jpg" alt="">
+        <img src="https://i.pinimg.com/originals/72/88/b5/7288b5c821d3c1064643c23de28653ee.jpg" alt="meme">
     </div>
 
-    <table cellspacing="15">
+    <div>
+    <table cellspacing="15" class="center">
         <tr>
             <th>Nr</th>
             <th>Description</th>
@@ -82,6 +159,7 @@
             <td>Me</td>
             <td><input type="checkbox"></td>
         </tr>
+    </div>
 
 
     

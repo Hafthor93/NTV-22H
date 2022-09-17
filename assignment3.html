@@ -1,11 +1,48 @@
 <html lang="en">
 <head>
+    <style>
+
+    label, input {
+            display: inline-block;
+        }
+        label {
+            margin-top: 10px;
+        }
+
+        button {
+            margin-top: 5px;
+        }
+    </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NTV - BeerMe Portal - Assignment 3.</title>
 </head>
 <body>
-    
+    <h1>Welcome to the BeerMe drinking competition 🍻🍻</h1>
+    <h3>Here you can sign up to compete against other BeerMe competitors!</h3>
+    <form>
+
+        <label for="name">Your name:</label>
+        <input type="text" id="name" placeholder="Enter your name"><br>
+        <label for="age">Your age:</label>
+        <input type="age" id="age" placeholder="Enter your age"><br>
+        <label for="weight">Your weight:</label>
+        <input type="weight" id="weight" placeholder="Enter your weight"><br>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" value="other"><br>
+        <label for="email">Your Email:</label>
+        <input type="text" id="email" placeholder="Enter your email"><br>
+        <label for="bio">Bio:</label><br>
+        <textarea name="bio" id="" cols="30" rows="10"></textarea><br>
+        <button>Submit</button>
+    </form>
+
+
 </body>
 </html>
+

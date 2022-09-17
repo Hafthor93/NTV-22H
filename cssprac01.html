@@ -1,0 +1,105 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>03 - CSS  - First part</title>
+    <style>
+        h1 {
+            color: #ad1186;
+        }
+        #unique-selected-tag {
+            color: #0a558c;
+        }
+        .selected-by-class {
+            color: #e67635;
+        }
+        p {
+            color: #911111;
+        }
+        .color-pink {
+            color: #FACDCD;
+        }
+        #color-green {
+            color: #57AE5B;
+        }
+        .test-span {
+            color: #0a558c;
+            background-color: #ad1186;
+        }
+        h2 {
+            font-size: 36px;
+        }
+       /* * {
+            border: 1px solid red;
+        }*/
+        .width-200 {
+            width: 200px;
+        }
+        img {
+            height: 400px;
+        }
+        .m-20{
+            margin: 20px;
+        }
+        .selectp {
+            background-color: blueviolet;
+        }
+        #only-this {
+            color: white;
+        }
+        .p-20 {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>My First CSS!</h1>
+        <h1>Inline css - is the worst?</h1>
+    </div>
+    <div>
+        <h1>Selectors & the style tag</h1>
+        <h1 id="unique-selected-tag">Hi im the first of the first css lines!</h1>
+        <h1 class="selected-by-class">As you can see every h1 is selected and colored orange</h1>
+        <p class="selected-by-class">This is very much p tag</p>
+    </div>
+
+    <div>
+        <h1>Practice - the selectors</h1>
+        <p>Hi, please change the color of all the p tags to #911111</p>
+        <p class="color-pink">
+            Now, add a class attribute to this P tag and change the color of this tag and 
+            the following p tag to #FACDCD
+        </p>
+        <p>
+            Hi! Im the following P tag
+        </p>
+        <p id="color-green">Now Only select me and change the color to #57AE5B</p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            <span class="test-span">Neat trick! you can use span to select text in a tag without adding a boxmodel* to the element. Test to select this class and give it a different "background-color"</span>
+            dolor neque ea placeat! Eos est beatae qui nam obcaecati vero voluptatibus, in magnam dolorem omnis consectetur, ad non.</p>
+        <hr>
+    </div>
+
+    <h1>Size matters?</h1>
+        <h2>Lets make h2 larger than h1!</h2>
+        <p class="width-200">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam porro maiores, ipsum quae quos perspiciatis culpa harum, nisi aliquam modi voluptatibus, hic ut eos! Dolorum dignissimos vero velit laboriosam corrupti.
+            Perferendis nihil obcaecati illo quas sed corrupti quis ipsa, nam, ex, alias molestiae reiciendis repudiandae. Modi vero itaque veniam fugiat culpa qui architecto, eaque nisi maxime omnis dolore quia harum.
+            Officia reiciendis eos eveniet veniam illum! Dolorum blanditiis assumenda fugiat optio mollitia exercitationem ratione ex nihil nisi distinctio nam iste architecto excepturi unde facilis odio eaque tempora, pariatur natus quibusdam!
+            Molestias voluptatibus culpa voluptates reiciendis ducimus omnis officiis minima debitis aut alias? Fuga cumque sit, porro rerum ad quaerat dolorum consequuntur neque aut maxime ipsa. Ducimus, nemo voluptas? Est, amet.
+            eleniti commodi consequatur?
+        </p>
+
+        <h3>Practice - Change the size of the images</h3>
+        <p id="only-this" class="selectp">Change the size of the first image to 400px height</p>
+        <p class="selectp">Change the size of the second image to 400px height and 200px width</p>
+        <img class="p-20 selectp" src="https://m.media-amazon.com/images/M/MV5BMDljNTQ5ODItZmQwMy00M2ExLTljOTQtZTVjNGE2NTg0NGIxXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_FMjpg_UX1000_.jpg" alt="starwars">
+        <img class="width-200" src="https://cdn.pocket-lint.com/r/s/x1920/assets/images/147767-tv-feature-what-order-should-you-watch-all-the-star-wars-films-image1-1wdfjceytb.jpg" alt="starwars poster">
+
+        
+
+</body>
+</html>
