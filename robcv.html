@@ -1,0 +1,264 @@
+<html lang="en">
+<head>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,900;1,100;1,900&family=Roboto:ital,wght@0,100;0,400;0,700;1,300;1,400&display=swap');
+
+         header { 
+            width: 110%; 
+            max-width: 110%;
+            padding: 20px 0; 
+            margin-left: -50px;
+            margin-top: -10px;
+            height: 170px;
+            font-size: 23px;
+            color: #F0F4F8; 
+            background-color: #1D354D;
+        }
+
+
+         .headerinfo {
+            font-family: "Montserrat";
+         }
+         .mainh1, .mainh2, .mainh3 {
+            text-align: center;
+            height: 15px;
+            margin-top: 20;
+         }
+         .mainh2 {
+            margin-top: 40;
+            margin-bottom: 20;
+         }
+         img {
+            border: 15px solid #9FB3C8;
+            margin-top: 25px;
+            margin-left: px;
+         }
+
+         .color1intext {
+            background-color: #F7D070;
+         }
+         .color2intext {
+            background-color: #A61B1B;
+            color: white;
+         }
+         .aboutme {
+            font-family: "roboto";
+            text-align: start;
+         }
+
+         .marginhr {
+            margin-top: 40px;
+            width: 797px;
+         }
+         .tableheader {
+            font-family: "Roboto";
+            background-color: #9FB3C8;
+         }
+         .educationh1 , .aboutmeh1, .workex , .familyh1, .lifequotesh1 , .socialLinksh1 {
+            font-family: "Montserrat";
+         }
+         .worktable {
+            font-family: "roboto";
+            font-size: 14;
+            background-color: #F1F5F8;
+            text-align: start;
+            margin-right: 655px;
+            padding: 8px;
+            border: 1px solid white;
+            border-collapse: separate;
+
+         } 
+
+         hr {
+            background-color: #9FB3C8;
+            display: block;
+            height: 1px;
+            border: 0;
+            border-top: 1px solid #9FB3C8;
+            margin: 1em 0;
+            padding: 0;
+         }
+
+         .educationlist , .familylist {
+            font-family: "roboto";
+            font-size: large;
+         }
+         body {
+            margin-left: 50;
+         }
+         .quote1 , .quote2 {
+            font-family: "Roboto";
+         }
+         .spanquote1 , .spanquote2 , .spanquote3 , .spanquote4 {
+            color: #9FB3C8;
+            font-size: x-large;
+            font-family: "roboto";
+            font-style: italic;
+        }
+
+        .verticalLeft {
+            border-left:7px solid #DA4A91;
+            margin-left: 40;
+            padding-left: 10;
+        }
+        .verticalRight {
+            border-right:7px solid #DA4A91;
+            margin-left: 75;
+            margin-right: 1200;
+        }
+        .socialList {
+            font-family: "roboto";
+            font-size: x-large;
+            margin-bottom: 60px;
+        }
+
+        footer {
+            width: 110%; 
+            max-width: 110%;
+            padding: 20px 0; 
+            margin-left: -50px;
+            margin-top: -10px;
+            margin-bottom: -11px;
+            height: 170px;
+            font-size: 23px;
+            color: #F0F4F8; 
+            background-color: #F1F5F8;
+        }
+        .footerName {
+            color: red;
+            text-align: center;
+            font-size: 70px;
+            font-family: "Roboto";
+            margin-top: -70;
+            color: #F1F5F8;
+        }
+        .twitter {
+            margin-bottom: 7;
+            margin-top: 7;
+        }
+
+     
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>03 - CSS Rob CV</title>
+</head>
+<body>
+    <header>
+        <div class="headerinfo">
+            <h1 class="mainh1">Rob McElhenney</h1>
+            <h3 class="mainh2">+555 555-3212</h3>
+            <h3 class="mainh3">rob@itssunny.com</h3>
+        </div>
+    </header>
+
+    <img src="img/robcv.jpeg" alt="rob photo">
+    <h1 class="aboutmeh1">About me</h1>
+
+    <div class="aboutme">
+    <p> <strong>Robert McElhenney III</strong>  an American actor, producer, and, writer. Best known for his role as <strong>Ronald "Mac"</strong>  <br> 
+        <strong>McDonald</strong>  on the <span class="color1intext">FX/FXX</span> comedy series It's Always Sunny in Philadelphia (2005–present), which he created and <br> 
+        co-developed and on which he serves as an executive producer, co-writer, and occasional director. He is also <br> 
+        known for his role as Ian Grimm on the Apple TV+ comedy series Mythic Quest (2020–present), which he co- <br> 
+        created and on which he serves as a co-writer and executive producer. <strong>McElhenney</strong>  is the co-owner of the Welsh <br> 
+        association football club <span class="color2intext">Wrexham A.F.C.</span> </p>
+    </div>
+        <hr class="marginhr">
+
+        <h1 class="workex">Work experience</h1>
+
+        <div id="experience">
+        <table class="worktable" cellspacing="2">
+            <tr class="tableheader">
+                <th>Year</th>
+                <th>Company</th>
+                <th>Title</th>
+                <th>Job Description</th>
+            </tr>
+            <tr id="row1">
+                <td>2001- <br> present </td>
+                <td>Mac's bar </td>
+                <td>Bouncer- <br> Bartender </td>
+                <td> Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi aspernatur dolorum <br> fugit laudantium, ea ex aliquam obcaecati quisquam, nemo eveniet fugiat dignissimos quae ipsum corporis blanditiis molestiae suscipit molestias minus! </td>
+            </tr>
+            <tr id="row2">
+                <td>2019- <br> present</td>
+                <td>Wrexham</td>
+                <td>Owner</td>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores delectus dolorum eius voluptatem dolor iusto. Nemo nihil distinctio accusantium voluptate a. Maxime labore adipisci suscipit natus molestiae provident, quasi eius. </td>
+            </tr>
+            <tr id="row3">
+                <td>2017- <br> 2019</td>
+                <td>Tallies <br> toileties </td>
+                <td>Janitor</td>
+                <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A ipsa accusamus ullam iusto provident nemo ratione blanditiis, earum asperiores eius aut eaque, nulla dicta ut facere. Assumenda odio tempora maxime? </td>
+            </tr>
+            <tr class="row4">
+                <td>2015- <br> 2016 </td>
+                <td>Nightman <br> commeth </td>
+                <td>Actor</td>
+                <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci corrupti vel magnam facilis temporibus harum odio laborum. Doloremque, quo et eveniet voluptatum cumque repellendus! Esse, sequi. Voluptate inventore labore placeat! </td>
+            </tr>
+
+        </div>   
+        
+        </table>
+
+    <div>
+        <h1 class="educationh1">Education</h1>
+        <ol class="educationlist">
+            <li>University of Wakiki - 2011</li>
+            <li>Collage of Art - 2009</li>
+            <li>East Wonton Primary school - 2008</li>
+        </ol>
+
+    </div>
+    <div>
+        <h1 class="familyh1" >Family</h1>
+        <ul class="familylist">
+            <li>Wife, Kaitlin Olson (Big bird)</li>
+            <li>Son, Axel Lee McElhenney</li>
+            <li>Son, Leo Grey Mcelhenney</li>
+        </ul>
+    </div>
+    
+        <h1 class="lifequotesh1">Life quotes</h1>
+        <div class="verticalLeft">
+                <p class="quote1"> 
+                    <span class="spanquote1">"</span> If anything, when you're in <br> your late 20s, early 30s, <br> and then mid-30s, you're <br>
+                getting less attractive. <span class="spanquote2">"</span>
+                </p>  
+        </div> 
+
+        <div class="verticalRight">
+                <p class="quote2">
+                    <span class="spanquote3">"</span> Well, if I've learned <br> anything from films like <br> Executive Decision or <br> Passenger 57, there's <br> always a way into the <br>
+                    cargo hold. <span class="spanquote4">"</span>
+                </p>
+        </div>
+
+        <h1 class="socialLinksh1" >Social media links</h1>
+        <div class="socialList">
+            <ul>
+                <li><a href="www.facebook.com">Facebook</a></li>
+                <li class="twitter"><a href="www.twitter.com">Twitter</a></li>
+                <li><a href="www.myspace.com">MySpace</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <footer>
+                <h1 class="footerName" >Rob McElhenney</h1>
+            </footer>
+        </div>
+
+
+
+
+</body>
+</html>
+
+
+
