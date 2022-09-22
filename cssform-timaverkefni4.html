@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+                body {
+        margin: 0;
+        }
+        .container {
+        height: 100vh;
+        }
+
+
+
+        .item {
+            padding: 2rem;
+        }
+
+
+
+        .form {
+            width: 75vw;
+        
+        }
+
+        .banner {
+        width: 50vw;
+        background-color: red;
+        justify-content: center;
+        }
+
+        .banner > h1 {
+            color: white;
+        }
+
+
+
+        .flex {
+        display: flex;
+        }
+
+        .inputContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        }
+
+        .input {
+        display:flex;
+        flex: 1 0 40%;
+        margin: 0.5rem;
+        flex-direction: column;
+        }
+
+
+
+        input {
+        border: 1px solid red;
+        height: 2rem;
+        }
+
+
+
+        textarea {
+            border: 1px solid red;
+        height: 4rem;
+        }
+
+        button {
+        margin-top: 2rem;
+        background-color: red;
+        width: 100%;
+        border: none;
+        height: 3rem;
+        color: white;
+        }
+
+
+
+    </style>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>04 - CSS Form</title>
+</head>
+<body>
+    <div class="container flex">
+        <div class="banner flex item">
+           <h1>Contact NTV</h1>
+        </div>
+        <div class="item form">
+           <h1>Email us</h1>
+          <form>
+           <div class="inputContainer">
+              <div class="input">
+                 <label for="name">Name</label>
+                 <input type="text" id="name"/>
+              </div>
+              <div class="input">
+                 <label for="company">Company</label>
+                 <input type="text" id="company" />
+              </div>
+              <div class="input">
+                 <label for="email">Email Address</label>
+                 <input type="email" id="email" />
+              </div>
+              <div class="input">
+                 <label for="phone">Phone Number</label>
+                 <input type="tel" id="phone" />
+              </div>
+              <div class="input">
+                 <label for="message">Message</label>
+                <textarea type="text" id="message"></textarea>
+              </div>
+           </div>
+           <button type="submit">SUBMIT</button>
+          </form>
+           </div
+        </div>
+    
+</body>
+</html>
