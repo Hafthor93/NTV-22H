@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+        html, body {
+        height: 100%;
+        width: 100%;
+        background-color: aqua;
+        background: whitesmoke;
+
+        }
+
+        .flex{
+        display: flex;
+        flex-direction: column;
+        }
+
+        .header {
+        justify-content: center;
+        height: 100%;
+        }
+        .mainh1 {
+            text-align: center;
+            align-items: center;
+            font-size: 80px;
+            color: #3375B1;
+            font-family: 'Montserrat', sans-serif;
+            margin-bottom: -5px;
+        }
+
+        .box {
+        padding: 3rem;
+        border-radius: 25px;
+        margin: 10px;
+        margin-top: 30px;
+        }
+        .box > h1 {
+            font-size: 40px;
+            font-family: 'Montserrat', sans-serif;
+            color:white;
+            margin-top: -10px;
+        }
+        .text {
+            color: white;
+            font-family: "montserrat";
+            font-size: 20px;
+            text-align:start;
+            line-height: 35px;
+            }
+
+        .text1 , .text3 {
+            margin-left: 31px;
+
+        }
+        .text2 {
+            margin-left: 50px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            align-items:center;
+            justify-content: center;
+        }
+
+        .box1 {
+            background-color: #50B1D4;
+            flex: 15% 0 0;
+            height: 250px;
+            text-align: center;
+            
+        }  
+        .box2 {
+            background-color: #3375B1;
+            flex: 15% 0 0;
+            height: 300px;
+            text-align: center;
+            border: 10px solid #1F466A;
+        }             
+        .box3 {
+            background-color: #50B1D4;
+            flex: 15% 0 0;
+            height: 250px;
+            text-align: center;
+        }
+        button {
+            font-family: "montserrat";
+            font-weight: bold;
+            color:white;
+            background-color: #6A11B1;
+            border-radius: 10px;
+            width: 100px;
+            height: 50px;
+            border: none;
+            margin-top: 25px;
+            margin-left: 15px;
+        }
+
+        .button1 , .button3{
+            margin-left: 22px;
+        }
+
+
+
+
+
+
+
+    </style>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05 - CSS Three plans</title>
+</head>
+<body>
+    <div class="flex">
+        <div class="header">
+          <h1 class="mainh1 flex">FORRITUN</h1>
+        </div>
+        <div class="container">
+          <div class="box box1">
+            <h1>1. önn</h1>
+            <div class="text text1">
+              Grunnur að forritun <br>
+              Go! <br>
+              Flutter
+              <div class="button button1">
+                <button>
+                    SKOÐA
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="box box2">
+            <h1>2. önn</h1>
+            <div class="text text2">
+              Vefforritun <br>
+              HTML & CSS <br>
+              CSS Frameworks <br>
+              Javascript <br>
+              React
+              <div class="button">
+                <button>
+                    SKOÐA
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="box box3">
+            <h1>3. önn</h1>
+            <div class="text text3">
+              Lokaverkefni <br>
+              Gagnagrunnar <br>
+              Öryggi
+              <div class="button button3">
+                <button>
+                    SKOÐA
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
