@@ -1,0 +1,125 @@
+<html lang="en">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+        html , body {
+            height: 100%;
+            width: 100%;
+        }
+
+        .container {
+            display: flex;
+            height: 180vh;
+            box-shadow: 5px 5px 5px 5px rgb(187, 186, 186);
+            justify-content: center;
+        }
+
+        .sidebanner {
+            background-color: #E6343B;
+            color: white;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            flex: 0 0 25%;
+            height: 50%;
+            font-family: "montserrat";
+            font-size: large;
+        }
+        .contact {
+            margin-top: 80px;
+        }
+
+        .form > h1 {
+            font-family: "montserrat";
+            margin-top: 85px;
+        }
+        .form {
+            margin-left: 20px;
+        }
+
+        .inputContainer {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            margin-top: 20px;
+
+        }
+
+        .input {
+            display:flex;
+            flex: 1 0 40%;
+            margin-right: 10px;
+            line-height: 4;
+            flex-direction: column;
+            font-family: "montserrat";
+            
+        }
+        input {
+            border: 1px solid #E6343B;
+            height: 40px;
+            width: 300px;
+        }
+
+        .form {
+            width: 85vh;
+        }
+        textarea {
+            border: 1px solid #E6343B;
+            height: 150px;
+            width: 630px;
+        }
+        button {
+            margin-top: 2rem;
+            background-color: #E6343B;
+            width: 630px;
+            border: none;
+            height: 3rem;
+            color: white;
+        }
+
+
+
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>04 - CSS Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebanner">
+           <h1 class="contact" >Contact NTV</h1>
+        </div>
+        <div class="form">
+           <h1>Email us</h1>
+          <form>
+           <div class="inputContainer">
+              <div class="input">
+                 <label for="name">Name</label>
+                 <input type="text" id="name"/>
+              </div>
+              <div class="input">
+                 <label for="company">Company</label>
+                 <input type="text" id="company" />
+              </div>
+              <div class="input">
+                 <label for="email">Email Address</label>
+                 <input type="email" id="email" />
+              </div>
+              <div class="input">
+                 <label for="phone">Phone Number</label>
+                 <input type="tel" id="phone" />
+              </div>
+              <div class="input">
+                 <label for="message">Message</label>
+                <textarea type="text" id="message"></textarea>
+              </div>
+           </div>
+           <button type="submit">SUBMIT</button>
+          </form>
+            </div>
+        </div>
+</body>
+</html>
